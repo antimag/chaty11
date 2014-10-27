@@ -8,8 +8,8 @@ gem 'rails', '4.0.0'
 gem 'devise'
 group :development, :test do
   gem 'byebug'
+  gem 'mysql2'
 end
-gem 'mysql2'
 gem 'private_pub'
 gem 'thin'
 gem 'haml'
@@ -51,3 +51,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
