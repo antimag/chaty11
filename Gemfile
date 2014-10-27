@@ -8,8 +8,8 @@ gem 'rails', '4.0.0'
 gem 'devise'
 group :development, :test do
   gem 'byebug'
-  gem 'mysql2'
 end
+gem 'mysql2'
 gem 'private_pub'
 gem 'thin'
 gem 'haml'
