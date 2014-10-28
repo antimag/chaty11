@@ -77,10 +77,4 @@ ChatApp::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  ChatApp::Application.config.middleware.use ExceptionNotification::Rack,
-    :email => {
-      :email_prefix => "[MyProperty] ",
-      :sender_address => %{"notifier" <notifier@chat11.herokuapp.com/>},
-      :exception_recipients => %w{antima@grepruby.com}
-  }
 end
