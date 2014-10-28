@@ -10,3 +10,11 @@ development:
   username: root
   password: root
   pool: 5
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: chat_app
+  pool: 5
+  username:
+  password:

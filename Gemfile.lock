@@ -173,7 +173,7 @@ DEPENDENCIES
   jquery-rails
   meta-tags
   mysql2
-  pg (= 0.15.1)
+  pg
   private_pub
   rails (= 4.0.0)
   rails_12factor (= 0.0.2)
