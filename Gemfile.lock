@@ -73,8 +73,6 @@ GEM
     faye-websocket (0.7.5)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.3.5)
-    haml (4.0.5)
-      tilt
     hike (1.2.3)
     http_parser.rb (0.6.0)
     i18n (0.6.11)
@@ -171,7 +169,6 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.0.0)
   devise
-  haml
   jbuilder (~> 1.2)
   jquery-rails
   meta-tags

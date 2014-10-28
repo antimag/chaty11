@@ -12,7 +12,7 @@ group :development, :test do
 end
 gem 'private_pub'
 gem 'thin'
-gem 'haml'
+#gem 'haml'
 gem 'meta-tags', :require => 'meta_tags'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
