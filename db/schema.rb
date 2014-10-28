@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141027090513) do
+ActiveRecord::Schema.define(version: 20141028061159) do
 
   create_table "conversations", force: true do |t|
     t.integer  "sender_id"
@@ -19,6 +19,9 @@ ActiveRecord::Schema.define(version: 20141027090513) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "conversations", ["recipient_id"], name: "index_conversations_on_recipient_id", using: :btree
+  add_index "conversations", ["sender_id"], name: "index_conversations_on_sender_id", using: :btree
 
   create_table "messages", force: true do |t|
     t.text     "body"
