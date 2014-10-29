@@ -16,5 +16,6 @@
 //= require turbolinks
 //= require chat
 //= require users
+//= require faye
 //= require private_pub
 //= require_tree .
