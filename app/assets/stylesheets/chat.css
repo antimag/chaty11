@@ -14,13 +14,13 @@ display: none;
 }
  
 .chatboxhead {
-background: #666;
+background: none repeat scroll 0 0 #9eb194;
 color: white;
 padding: 0.5rem;
 overflow: hidden;
  
-border-right: 1px solid rgba(85, 85, 85, 0.87);
-border-left: 1px solid rgba(85, 85, 85, 0.87);
+border-right: 1px solid #9eb194;
+border-left: 1px solid #9eb194;
 }
  
 .chatboxhead h1 {
@@ -36,17 +36,17 @@ border-left: 1px solid #176689;
 }
  
 .chatboxcontent {
-font-family: arial, sans-serif;
-height: 280px;
-width: 280px;
-overflow-y: auto;
-padding: 7px;
-border-left: 1px solid #cccccc;
-border-right: 1px solid #cccccc;
-border-bottom: 1px solid #eeeeee;
-background: #e5e5e5;
-line-height: 1.3em;
-list-style: none;
+  background: none repeat scroll 0 0 #fff;
+  border-bottom: 1px solid #9eb194;
+  border-left: 1px solid #9eb194;
+  border-right: 1px solid #9eb194;
+  font-family: arial,sans-serif;
+  height: 280px;
+  line-height: 1.3em;
+  list-style: none outside none;
+  overflow-y: auto;
+  padding: 7px;
+  width: 280px;
 }
  
 .chatboxcontent li {
@@ -115,7 +115,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 font-size: 12px;
 margin: 0 0 0.2rem 0;
 -ms-word-break: break-all;
- 
+color: #9eb194;
 /* Non standard for webkit */
 word-break: break-word;
  
@@ -125,23 +125,23 @@ hyphens: auto;
 }
  
 .chatboxmessagecontent time {
-font-size: 9px;
-color: #ccc;
+font-size: 13px;
+color: #9eb194;
 }
  
 .chatboxinput {
 padding: 5px;
 background-color: #ffffff;
-border-left: 1px solid #cccccc;
-border-right: 1px solid #cccccc;
-border-bottom: 1px solid #cccccc;
+border-left: 1px solid #9eb194;
+border-right: 1px solid #9eb194;
+border-bottom: 1px solid #9eb194;
 }
  
 .chatboxtextarea {
 width: 262px;
 height: 44px;
 padding: 3px 0pt 3px 3px;
-border: 1px solid #eeeeee;
+border: 1px solid #9eb194;
 margin: 1px;
 overflow: hidden;
 resize: none !important;
